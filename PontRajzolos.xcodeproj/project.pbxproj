@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DCED40181E84750041F55A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DCED3F181E84750041F55A /* Cocoa.framework */; };
+		E1DCED4A181E84750041F55A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1DCED48181E84750041F55A /* InfoPlist.strings */; };
+		E1DCED4C181E84750041F55A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCED4B181E84750041F55A /* main.m */; };
+		E1DCED50181E84750041F55A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E1DCED4E181E84750041F55A /* Credits.rtf */; };
+		E1DCED53181E84750041F55A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCED52181E84750041F55A /* AppDelegate.m */; };
+		E1DCED56181E84760041F55A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DCED54181E84760041F55A /* MainMenu.xib */; };
+		E1DCED58181E84760041F55A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DCED57181E84760041F55A /* Images.xcassets */; };
+		E1DCED5F181E84760041F55A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DCED5E181E84760041F55A /* XCTest.framework */; };
+		E1DCED60181E84760041F55A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DCED3F181E84750041F55A /* Cocoa.framework */; };
+		E1DCED68181E84760041F55A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1DCED66181E84760041F55A /* InfoPlist.strings */; };
+		E1DCED6A181E84760041F55A /* PontRajzolosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCED69181E84760041F55A /* PontRajzolosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1DCED61181E84760041F55A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DCED34181E84750041F55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1DCED3B181E84750041F55A;
+			remoteInfo = PontRajzolos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1DCED3C181E84750041F55A /* PontRajzolos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontRajzolos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DCED3F181E84750041F55A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E1DCED42181E84750041F55A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E1DCED43181E84750041F55A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E1DCED44181E84750041F55A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1DCED47181E84750041F55A /* PontRajzolos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PontRajzolos-Info.plist"; sourceTree = "<group>"; };
+		E1DCED49181E84750041F55A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1DCED4B181E84750041F55A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1DCED4D181E84750041F55A /* PontRajzolos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PontRajzolos-Prefix.pch"; sourceTree = "<group>"; };
+		E1DCED4F181E84750041F55A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E1DCED51181E84750041F55A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1DCED52181E84750041F55A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1DCED55181E84760041F55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E1DCED57181E84760041F55A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1DCED5D181E84760041F55A /* PontRajzolosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontRajzolosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DCED5E181E84760041F55A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1DCED65181E84760041F55A /* PontRajzolosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PontRajzolosTests-Info.plist"; sourceTree = "<group>"; };
+		E1DCED67181E84760041F55A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1DCED69181E84760041F55A /* PontRajzolosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PontRajzolosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1DCED39181E84750041F55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCED40181E84750041F55A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DCED5A181E84760041F55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCED60181E84760041F55A /* Cocoa.framework in Frameworks */,
+				E1DCED5F181E84760041F55A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1DCED33181E84750041F55A = {
+			isa = PBXGroup;
+			children = (
+				E1DCED45181E84750041F55A /* PontRajzolos */,
+				E1DCED63181E84760041F55A /* PontRajzolosTests */,
+				E1DCED3E181E84750041F55A /* Frameworks */,
+				E1DCED3D181E84750041F55A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1DCED3D181E84750041F55A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED3C181E84750041F55A /* PontRajzolos.app */,
+				E1DCED5D181E84760041F55A /* PontRajzolosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DCED3E181E84750041F55A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED3F181E84750041F55A /* Cocoa.framework */,
+				E1DCED5E181E84760041F55A /* XCTest.framework */,
+				E1DCED41181E84750041F55A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DCED41181E84750041F55A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED42181E84750041F55A /* AppKit.framework */,
+				E1DCED43181E84750041F55A /* CoreData.framework */,
+				E1DCED44181E84750041F55A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E1DCED45181E84750041F55A /* PontRajzolos */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED51181E84750041F55A /* AppDelegate.h */,
+				E1DCED52181E84750041F55A /* AppDelegate.m */,
+				E1DCED54181E84760041F55A /* MainMenu.xib */,
+				E1DCED57181E84760041F55A /* Images.xcassets */,
+				E1DCED46181E84750041F55A /* Supporting Files */,
+			);
+			path = PontRajzolos;
+			sourceTree = "<group>";
+		};
+		E1DCED46181E84750041F55A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED47181E84750041F55A /* PontRajzolos-Info.plist */,
+				E1DCED48181E84750041F55A /* InfoPlist.strings */,
+				E1DCED4B181E84750041F55A /* main.m */,
+				E1DCED4D181E84750041F55A /* PontRajzolos-Prefix.pch */,
+				E1DCED4E181E84750041F55A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1DCED63181E84760041F55A /* PontRajzolosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED69181E84760041F55A /* PontRajzolosTests.m */,
+				E1DCED64181E84760041F55A /* Supporting Files */,
+			);
+			path = PontRajzolosTests;
+			sourceTree = "<group>";
+		};
+		E1DCED64181E84760041F55A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1DCED65181E84760041F55A /* PontRajzolosTests-Info.plist */,
+				E1DCED66181E84760041F55A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1DCED3B181E84750041F55A /* PontRajzolos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DCED6D181E84760041F55A /* Build configuration list for PBXNativeTarget "PontRajzolos" */;
+			buildPhases = (
+				E1DCED38181E84750041F55A /* Sources */,
+				E1DCED39181E84750041F55A /* Frameworks */,
+				E1DCED3A181E84750041F55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PontRajzolos;
+			productName = PontRajzolos;
+			productReference = E1DCED3C181E84750041F55A /* PontRajzolos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1DCED5C181E84760041F55A /* PontRajzolosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DCED70181E84760041F55A /* Build configuration list for PBXNativeTarget "PontRajzolosTests" */;
+			buildPhases = (
+				E1DCED59181E84760041F55A /* Sources */,
+				E1DCED5A181E84760041F55A /* Frameworks */,
+				E1DCED5B181E84760041F55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1DCED62181E84760041F55A /* PBXTargetDependency */,
+			);
+			name = PontRajzolosTests;
+			productName = PontRajzolosTests;
+			productReference = E1DCED5D181E84760041F55A /* PontRajzolosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1DCED34181E84750041F55A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Robert Sallai";
+				TargetAttributes = {
+					E1DCED5C181E84760041F55A = {
+						TestTargetID = E1DCED3B181E84750041F55A;
+					};
+				};
+			};
+			buildConfigurationList = E1DCED37181E84750041F55A /* Build configuration list for PBXProject "PontRajzolos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1DCED33181E84750041F55A;
+			productRefGroup = E1DCED3D181E84750041F55A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1DCED3B181E84750041F55A /* PontRajzolos */,
+				E1DCED5C181E84760041F55A /* PontRajzolosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DCED3A181E84750041F55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCED4A181E84750041F55A /* InfoPlist.strings in Resources */,
+				E1DCED58181E84760041F55A /* Images.xcassets in Resources */,
+				E1DCED50181E84750041F55A /* Credits.rtf in Resources */,
+				E1DCED56181E84760041F55A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DCED5B181E84760041F55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCED68181E84760041F55A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1DCED38181E84750041F55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCED53181E84750041F55A /* AppDelegate.m in Sources */,
+				E1DCED4C181E84750041F55A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DCED59181E84760041F55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCED6A181E84760041F55A /* PontRajzolosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1DCED62181E84760041F55A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1DCED3B181E84750041F55A /* PontRajzolos */;
+			targetProxy = E1DCED61181E84760041F55A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1DCED48181E84750041F55A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DCED49181E84750041F55A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1DCED4E181E84750041F55A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DCED4F181E84750041F55A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E1DCED54181E84760041F55A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DCED55181E84760041F55A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E1DCED66181E84760041F55A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DCED67181E84760041F55A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1DCED6B181E84760041F55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1DCED6C181E84760041F55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1DCED6E181E84760041F55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PontRajzolos/PontRajzolos-Prefix.pch";
+				INFOPLIST_FILE = "PontRajzolos/PontRajzolos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1DCED6F181E84760041F55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PontRajzolos/PontRajzolos-Prefix.pch";
+				INFOPLIST_FILE = "PontRajzolos/PontRajzolos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1DCED71181E84760041F55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PontRajzolos.app/Contents/MacOS/PontRajzolos";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PontRajzolos/PontRajzolos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PontRajzolosTests/PontRajzolosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1DCED72181E84760041F55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PontRajzolos.app/Contents/MacOS/PontRajzolos";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PontRajzolos/PontRajzolos-Prefix.pch";
+				INFOPLIST_FILE = "PontRajzolosTests/PontRajzolosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1DCED37181E84750041F55A /* Build configuration list for PBXProject "PontRajzolos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DCED6B181E84760041F55A /* Debug */,
+				E1DCED6C181E84760041F55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DCED6D181E84760041F55A /* Build configuration list for PBXNativeTarget "PontRajzolos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DCED6E181E84760041F55A /* Debug */,
+				E1DCED6F181E84760041F55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1DCED70181E84760041F55A /* Build configuration list for PBXNativeTarget "PontRajzolosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DCED71181E84760041F55A /* Debug */,
+				E1DCED72181E84760041F55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1DCED34181E84750041F55A /* Project object */;
+}
